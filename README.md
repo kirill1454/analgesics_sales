@@ -1,2 +1,21 @@
-# analgesics_sales
-This project is about exploring sales data and prediting analgetics sales
+# Описание проекта
+
+В данном проекте заказчик потребовал провести анализ товара или категории товара на основе имеющихся датасетов, в которых находится информация о продажах отдельных товаров, а также демографическая составляющая продаж. 
+
+# Выполненные задачи
+
+1. EDA каждой категории товаров
+2. Анализ временных рядов (тренды, сезонность, шумы)
+3. Корреляционный анализ
+4. Генерация признаков
+5. Составление пайплайна и поиск наилучшей модели
+
+# Использованные технологии
+библиотеки Python: 
+- `pandas`
+- `numpy`
+- `seaborn`
+- `matplotlib`
+- `statsmodels` (seasonal_decompose, plot_acf)
+- `datetime`
+- `sklearn` (Ridge, LogisticRegression, DecisionTreeRegressor, Pipeline)
